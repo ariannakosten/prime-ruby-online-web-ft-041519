@@ -11,7 +11,7 @@ def prime?(n)
       
     end
  
-
+end
 end
 
 #prime number only divisible by 1 or itself 
