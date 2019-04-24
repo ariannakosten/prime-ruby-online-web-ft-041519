@@ -4,8 +4,7 @@ def prime?(n)
  
   range = (0..n).to_a
   range.each do |num|
-    if num != 1 || num != n
-      newNum = n/num
+    if num 
       
       
       
