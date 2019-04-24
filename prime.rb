@@ -5,13 +5,10 @@ def prime?(n)
   range = (2..n-1)
   #binding.pry
   range.each do |num|
-    if n % num  
-      
-      
-      
+    if n % num == 0 
+      return false
     end
- 
-end
+  end
 end
 
 #prime number only divisible by 1 or itself 
