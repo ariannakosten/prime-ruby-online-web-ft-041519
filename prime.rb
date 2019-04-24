@@ -9,6 +9,7 @@ def prime?(n)
       return false
     end
   end
+  true
 end
 
 #prime number only divisible by 1 or itself 
