@@ -2,7 +2,8 @@
 require 'pry'
 def prime?(n)
  
-  range = (0..n).to_a
+  range = (0..n).
+  binding.pry
   range.each do |num|
     if num 
       
