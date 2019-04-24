@@ -6,12 +6,9 @@ def prime?(n)
   binding.pry
   range.each do |num|
     if num 
-      
-      
-      
+    
     end
- 
-
+ end
 end
 
 #prime number only divisible by 1 or itself 
