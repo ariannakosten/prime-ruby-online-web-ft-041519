@@ -2,10 +2,10 @@
 require 'pry'
 def prime?(n)
  
-  range = (2..n)
+  range = (2..n-1)
   #binding.pry
   range.each do |num|
-    if num 
+    if n % num  
       
       
       
