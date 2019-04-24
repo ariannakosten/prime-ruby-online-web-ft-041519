@@ -1,7 +1,7 @@
 # Add  code here!
 require 'pry'
 def prime?(n)
-  if n <= 0
+  if n <= 1
    return false
  end
   range = (2..n-1)
